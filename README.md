@@ -1,0 +1,2 @@
+# Platform
+ Social Gurus Platform
