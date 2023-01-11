@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Social Guru | Summer Internship 2021</title>
+    
+    <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="../styles/register_employer.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="../styles/navbar.css">
+    <link rel="stylesheet" href="../styles/login.css">
+    
+    <title>Hire interns | Find interns | Hiring intern | Post internships- Intershala</title>
+</head>
+<body>
+    <!-- Navbar  -->
+    <!-- <div id="navBar">
+        
+    </div>
+    <nav>
+        
+    </nav> -->
+    <nav class="navbar navbar-light bg-dark">
+      <a class="navbar-brand" href="../homepage.html">
+        <img src="../images/symbol.png" width="30" height="30" alt="" style="
+        position: absolute;
+        width: 188px;
+        height: 123px;
+        top: -5px;
+        left: -25px;">
+       
+      </a>
+     
+  <style>
+      
+.element{
+  color: white;
+}
+.element ul li{
+  display: inline-block; padding:10px;
+font-size:20px; font-family:raleway;
+}
+
+
+  </style>
+  <div class="element">
+      <ul>
+          <li><img src="../images/vector.png" alt=""></li>
+          <li><img src="../images/chat.png" alt=""></li>
+          <li><img src="../images/Ellipse 1.png" alt=""></li>
+      </ul>
+  </div>
+  </nav>
+
+  <style>
+      
+      
+      
+      .topnav {
+        overflow: hidden;
+        background-color: transparent;
+      }
+      
+      .topnav a {
+        float: left;
+        display: block;
+        color: black;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+      }
+      
+      .topnav a:hover {
+        border-bottom: 2px solid black;
+      }
+      
+      /* .topnav a.active {
+        
+        border-bottom: 3px solid black;
+      } */
+      
+      .topnav .login-container {
+        float: right;
+      }
+      
+      .topnav input[type=text] {
+        padding: 6px;
+        margin-top: 8px;
+        font-size: 17px;
+        border: none;
+        width:120px;
+      }
+      
+      .topnav .login-container button {
+        float: right;
+        padding: 6px 10px;
+        margin-top: 8px;
+        margin-right: 16px;
+        background-color: transparent;
+        color: white;
+        font-size: 17px;
+        border: none;
+        cursor: pointer;
+      }
+      @media (max-width: 688px){
+        form#login-form {
+          width: 35em;
+        }
+      }
+      @media (max-width: 478px){
+        form#login-form {
+          width: 25em;
+          display: relative;
+          
+        }
+        form#login-form .btn{
+          width: 6em;
+        }
+      }
+      @media screen and (max-width: 600px) {
+        .topnav .login-container {
+          float: none;
+        }
+        .topnav a, .topnav input[type=text], .topnav .login-container button {
+          float: none;
+          display: block;
+          text-align: left;
+          width: 100%;
+          margin: 0;
+          padding: 14px;
+        }
+        .topnav input[type=text] {
+          border: 1px solid #ccc;  
+        }
+      }
+      </style>  
+ <div class="topnav">
+  <a class="active" href="#home"><strong>Opportunities</strong></a>
+  <a href="#about"><strong>Careers</strong></a>
+  <a href="#contact"><strong>About Us</strong></a>
+  <div class="login-container">
+      <a href="register_employer.html"><strong>Organization</strong></a>
+      <a href="register_student.html"><strong>Employee</strong></a>
+
+    
+  </div>
+</div>
+
+    <!-- login Modal Pop-up-->
+    <div id="login_modal_popup">
+
+    </div>
+    <!-- register as employer -->
+    <div id="regStd">
+        <div id="poster">
+            <div>
+                <div>Hire the best interns</div>
+                <h3>Register and post your internship for free now!</h3>
+                <h4>12 Mn+ internships seekers from 30,000+ colleges across India</h4>
+            </div>
+        </div>
+        <div id="signupSec">
+            <div id="signupDiv">
+                <form onsubmit="signup(event)">
+                    <div class="details1">
+                        <label>Official Email Id</label>
+                        <input placeholder="name@company_name.com"/>
+                    </div>
+                    <div class="details1">
+                        <label>Password</label>
+                        <input placeholder="Minimum 6 characters" type="password"/>
+                    </div>
+                    <div id="name">
+                        <div class="details1">
+                            <label>First Name</label>
+                            <input placeholder="Your First Name"/>
+                        </div>
+                        <div class="details1">
+                            <label>Last Name</label>
+                            <input placeholder="Your Last Name"/>
+                        </div>
+                    </div>
+                    <div class="details2">
+                        <label>Mobile Number</label><br/>
+                        <input value="+91" id="code"/>
+                        <input type="number" placeholder="10 digit mobile number" id="mob"/>
+                    </div>
+                    <p id="tc">By signing up, you agree to our <span>Terms and Conditions</span>.</p>
+                    <button class="textCenter" type="submit" style="background-color: #000">Register Now</button>
+                </form>
+                <p id="msg_regEmployer" style="color: #000"><span>Have a question?</span></p>
+            </div>
+        </div>
+    </div>
+    <h1 class="textCenter">Hire interns in 3 simple steps</h1>
+    <div id="stepsToFollow">
+        <div class="steps">
+            <img src="https://internshala.com/static/images/registration/employer/registration_new/internship/illustrations/1_register.png"/>
+            <h3 class="textCenter">1. Register</h3>
+            <p class="textCenter">Get started by creating your account</p>
+        </div>
+        <div class="steps">
+            <img src="https://internshala.com/static/images/registration/employer/registration_new/internship/illustrations/2_post.png"/>
+            <h3 class="textCenter">2. Post</h3>
+            <p class="textCenter">Post internships for any profile and location</p>
+        </div>
+        <div class="steps">
+            <img src="https://internshala.com/static/images/registration/employer/registration_new/internship/illustrations/3_hire.png"/>
+            <h3 class="textCenter">3. Hire</h3>
+            <p class="textCenter">Screen and hire using our world class ATS</p>
+        </div>
+    </div>
+    <h1 class="textCenter" id="noOfComp">2,84,686 companies trust us</h1>
+    <button class="textCenter" id="regBtn" style="background-color: #000">Register Now</button>
+    <div id="knowMore">
+        <div>
+            <h2>Now also post fresher jobs on Social Guru</h2>
+            <h6>Hire the best freshers <span>faster</span></h6>
+            <div class="textCenter">Know More</div>
+        </div>
+    </div>
+    <div id="footer">
+        <div id="footer_pageLinks">
+            <div>About us</div>
+            <div>We’re hiring</div>
+            <div>Employer resources</div>
+            <div>Our services</div>
+            <div>Terms & conditions</div>
+            <div>Privacy</div>
+            <div>Refund policy</div>
+            <div>Contact us</div>
+        </div>
+        <div id="social">
+            <div>
+                <i class='bx bx-copyright' id="crIcon"></i>
+                <p>Copyright 2021 Social Guru</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
